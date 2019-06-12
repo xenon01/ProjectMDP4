@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "270316631939",
+    "firebase_url": "https://proyekmdp-8be6a.firebaseio.com",
+    "project_id": "proyekmdp-8be6a",
+    "storage_bucket": "proyekmdp-8be6a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:270316631939:android:29015b1d6786e856",
+        "android_client_info": {
+          "package_name": "surya.com.projectmdp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "270316631939-1jfoqbkmlhi65dm345f42nfvr59pv5kc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAFbGQcEjueLSWwXufEcvSxAJhrPKxeihE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "270316631939-1jfoqbkmlhi65dm345f42nfvr59pv5kc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
