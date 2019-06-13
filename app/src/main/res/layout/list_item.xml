@@ -19,8 +19,8 @@
 
         <ImageView
             android:id="@+id/ivTeamA"
-            android:layout_width="100dp"
-            android:layout_height="100dp"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
             android:scaleType="centerCrop"
             tools:srcCompat="@tools:sample/avatars[2]" />
 
@@ -44,8 +44,8 @@
 
         <ImageView
             android:id="@+id/ivTeamB"
-            android:layout_width="100dp"
-            android:layout_height="100dp"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
             android:scaleType="centerCrop"
             tools:srcCompat="@tools:sample/avatars[2]" />
 
