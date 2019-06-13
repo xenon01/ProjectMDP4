@@ -74,12 +74,26 @@ public class RangkingDota2Fragment extends Fragment {
     RecyclerView rview;
     RangkingDota2Adapter adapter;
     ArrayList<RangkingDota2> rangkingDota2s;
+    DatabaseReference dReff;
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
         View v = inflater.inflate(R.layout.fragment_rangking_dota2, container, false);
+        /*
+        dReff = FirebaseDatabase.getInstance().getReference().child("Rangking");
+        dReff.addValueEventListener(new ValueEventListener() {
+            @Override
+            public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
+
+            }
+
+            @Override
+            public void onCancelled(@NonNull DatabaseError databaseError) {
+
+            }
+        });*/
 
         rangkingDota2s = new ArrayList<RangkingDota2>();
         rangkingDota2s.add(new RangkingDota2("1. Secret"));
